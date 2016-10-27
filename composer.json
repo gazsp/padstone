@@ -1,26 +1,39 @@
 {
-    "name": "imarc/padstone",
-    "description": "Padstone is a Craft CMS starter that includes plugins and configuration Imarc has found to be useful defaults.",
-    "homepage": "https://github.com/imarc/padstone",
+    "name": "gazsp/padstone",
+    "description": "Padstone is a Craft CMS boiler plate.",
+    "homepage": "https://github.com/gazsp/padstone",
     "type": "project",
     "license": "Apache",
     "authors": [
         {
             "name": "Kevin Hamer",
             "email": "kevin@imarc.com"
+        },
+        {
+            "name": "Gary Renes",
+            "email": "gaz@red-robot.co.uk"
         }
     ],
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gazsp/craft-cli"
+        }
+    ],
+
     "require": {
-        "imarc/craft-boost": "^1.0.0",
-        "imarc/craft-googlecustomsearch": "^1.0.2",
         "imarc/craft-kindling": "^1.0.0",
         "imarc/craft-sass": "^1.0.0",
-        "imarc/craft-social": "^1.0.0",
         "imarc/craft-betterredactor": "0.*",
         "itmundi/schematic": "^3.2",
         "boboldehampsink/tagmanager": "^0.2.0",
-        "nystudio107/retour": "^1.0"
+        "nystudio107/retour": "^1.0",
+        "craft-cli/cli": "dev-master"
     },
+
+    "minimum-stability": "dev",
+
     "autoload": {
         "psr-4": {
             "Imarc\\Padstone\\": "padstone/"

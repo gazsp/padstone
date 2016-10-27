@@ -25,11 +25,12 @@ switch ($env) {
         $config = array_merge($config, [
             'siteUrl' => "http://dev.example.com",
             'devMode' => true,
-            'testToEmailAddress' => 'test+example.com@imarc.com',
+            'testToEmailAddress' => 'test+example.com@test.com',
             'useCompressedJs' => false,
             'cache' => false,
         ]);
         break;
+
     case 'stage':
         $config = array_merge($config, [
             'siteUrl' => 'http://stage.example.com',
@@ -37,12 +38,14 @@ switch ($env) {
             'cache' => true,
         ]);
         break;
+
     case 'prod':
         $config = array_merge($config, [
             'siteUrl' => 'https://example.com',
             'cache' => true,
         ]);
         break;
+
     default:
         die("Unfortunately, the server is misconfigured. Please review the configuration in config/general.php.");
 }
