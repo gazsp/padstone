@@ -29,6 +29,7 @@
         "itmundi/schematic": "^3.2",
         "boboldehampsink/tagmanager": "^0.2.0",
         "nystudio107/retour": "^1.0",
+        "selvinortiz/craft-patrol": "^1.4.1",
         "craft-cli/cli": "dev-master"
     },
 

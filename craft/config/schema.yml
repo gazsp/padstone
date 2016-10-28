@@ -11,7 +11,7 @@ assetSources:
             publicURLs: '1'
             url: '/uploads/images/'
         fieldLayout:
-            fields: {    }
+            fields: {}
 
 fields:
     Blog:
@@ -391,13 +391,13 @@ fields:
                 selectionLabel: 'Add their photo'
             context: global
 
-globalSets: {    }
+globalSets: {}
 
 plugins:
     BetterRedactor:
         isInstalled: true
         isEnabled: true
-        settings: {    }
+        settings: {}
     FieldManager:
         isInstalled: true
         isEnabled: true
@@ -406,7 +406,7 @@ plugins:
     Kindling:
         isInstalled: true
         isEnabled: true
-        settings: {    }
+        settings: {}
     Retour:
         isInstalled: true
         isEnabled: true
@@ -415,11 +415,15 @@ plugins:
     Sass:
         isInstalled: true
         isEnabled: true
-        settings: {    }
+        settings: {}
     TagManager:
         isInstalled: true
         isEnabled: true
-        settings: {    }
+        settings: {}
+    Patrol:
+        isInstalled: true
+        isEnabled: true
+        settings: {}
 
 sections:
     blog:
@@ -542,20 +546,20 @@ sections:
                             teamPhoto: '0'
                             teamBio: '1'
 
-userGroups: {    }
+userGroups: {}
 
 users:
     fieldLayout:
-        fields: {    }
+        fields: {}
 
-elementIndexSettings: {    }
+elementIndexSettings: {}
 
-pluginData: {    }
+pluginData: {}
 
-categoryGroups: {    }
+categoryGroups: {}
 
 tagGroups:
     default:
         name: Default
         fieldLayout:
-            fields: {    }
+            fields: {}
